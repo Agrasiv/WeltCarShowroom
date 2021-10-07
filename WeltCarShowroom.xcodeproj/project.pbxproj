@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020A6A43B7D7861A9C3E0609 /* Pods_WeltCarShowroom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BB2D7AF177B6B4B73E0E11 /* Pods_WeltCarShowroom.framework */; };
+		4901D18A270E09CB0083176E /* BannerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4901D189270E09CA0083176E /* BannerCollectionCell.swift */; };
+		4901D192270E0A4D0083176E /* BannerCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4901D191270E0A4D0083176E /* BannerCollectionCell.xib */; };
+		49360436270D9AE50089FECD /* SearchingVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49360435270D9AE50089FECD /* SearchingVC.storyboard */; };
+		4936043B270DA20C0089FECD /* SearchingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4936043A270DA20C0089FECD /* SearchingVC.swift */; };
 		496CD39F270D798F00C91DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CD39E270D798F00C91DB3 /* AppDelegate.swift */; };
 		496CD3A1270D798F00C91DB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CD3A0270D798F00C91DB3 /* SceneDelegate.swift */; };
 		496CD3A3270D798F00C91DB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CD3A2270D798F00C91DB3 /* ViewController.swift */; };
@@ -15,6 +20,12 @@
 		496CD3AB270D799800C91DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496CD3A9270D799800C91DB3 /* LaunchScreen.storyboard */; };
 		496CD3B6270D799800C91DB3 /* WeltCarShowroomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CD3B5270D799800C91DB3 /* WeltCarShowroomTests.swift */; };
 		496CD3C1270D799800C91DB3 /* WeltCarShowroomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CD3C0270D799800C91DB3 /* WeltCarShowroomUITests.swift */; };
+		49BB9E43270DDBA2000F151A /* Carcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB9E42270DDBA2000F151A /* Carcell.swift */; };
+		49BB9E4B270DDBB0000F151A /* Carcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BB9E4A270DDBB0000F151A /* Carcell.xib */; };
+		49BB9E50270DE69F000F151A /* CarDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB9E4F270DE69E000F151A /* CarDetailVC.swift */; };
+		49BB9E55270DE6B2000F151A /* CarDetailVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BB9E54270DE6B2000F151A /* CarDetailVC.storyboard */; };
+		CB382000D7F1A620A9CE6C50 /* Pods_WeltCarShowroomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF5C752332875865E2B0E8B /* Pods_WeltCarShowroomTests.framework */; };
+		D462003AFFBEA2C05FB38125 /* Pods_WeltCarShowroom_WeltCarShowroomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A914ABB7F1D85CDB8EC10E9C /* Pods_WeltCarShowroom_WeltCarShowroomUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004CA3119E923235CA0AD485 /* Pods-WeltCarShowroomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeltCarShowroomTests.debug.xcconfig"; path = "Target Support Files/Pods-WeltCarShowroomTests/Pods-WeltCarShowroomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E818689AEEBF04D58755EDC /* Pods-WeltCarShowroom-WeltCarShowroomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeltCarShowroom-WeltCarShowroomUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeltCarShowroom-WeltCarShowroomUITests/Pods-WeltCarShowroom-WeltCarShowroomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4658AE7938D82FD08B443D68 /* Pods-WeltCarShowroom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeltCarShowroom.debug.xcconfig"; path = "Target Support Files/Pods-WeltCarShowroom/Pods-WeltCarShowroom.debug.xcconfig"; sourceTree = "<group>"; };
+		4901D189270E09CA0083176E /* BannerCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionCell.swift; sourceTree = "<group>"; };
+		4901D191270E0A4D0083176E /* BannerCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionCell.xib; sourceTree = "<group>"; };
+		49360435270D9AE50089FECD /* SearchingVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchingVC.storyboard; sourceTree = "<group>"; };
+		4936043A270DA20C0089FECD /* SearchingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingVC.swift; sourceTree = "<group>"; };
 		496CD39B270D798F00C91DB3 /* WeltCarShowroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeltCarShowroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496CD39E270D798F00C91DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		496CD3A0270D798F00C91DB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,16 @@
 		496CD3BC270D799800C91DB3 /* WeltCarShowroomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeltCarShowroomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		496CD3C0270D799800C91DB3 /* WeltCarShowroomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeltCarShowroomUITests.swift; sourceTree = "<group>"; };
 		496CD3C2270D799800C91DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BB9E42270DDBA2000F151A /* Carcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carcell.swift; sourceTree = "<group>"; };
+		49BB9E4A270DDBB0000F151A /* Carcell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Carcell.xib; sourceTree = "<group>"; };
+		49BB9E4F270DE69E000F151A /* CarDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailVC.swift; sourceTree = "<group>"; };
+		49BB9E54270DE6B2000F151A /* CarDetailVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarDetailVC.storyboard; sourceTree = "<group>"; };
+		7EF5C752332875865E2B0E8B /* Pods_WeltCarShowroomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeltCarShowroomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BB2D7AF177B6B4B73E0E11 /* Pods_WeltCarShowroom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeltCarShowroom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A914ABB7F1D85CDB8EC10E9C /* Pods_WeltCarShowroom_WeltCarShowroomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeltCarShowroom_WeltCarShowroomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF9CC56F4708C5831902ACA /* Pods-WeltCarShowroom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeltCarShowroom.release.xcconfig"; path = "Target Support Files/Pods-WeltCarShowroom/Pods-WeltCarShowroom.release.xcconfig"; sourceTree = "<group>"; };
+		CD8B2B660A12C7C6834B57CC /* Pods-WeltCarShowroomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeltCarShowroomTests.release.xcconfig"; path = "Target Support Files/Pods-WeltCarShowroomTests/Pods-WeltCarShowroomTests.release.xcconfig"; sourceTree = "<group>"; };
+		E38BF07C2B6F354D03FEAE21 /* Pods-WeltCarShowroom-WeltCarShowroomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeltCarShowroom-WeltCarShowroomUITests.release.xcconfig"; path = "Target Support Files/Pods-WeltCarShowroom-WeltCarShowroomUITests/Pods-WeltCarShowroom-WeltCarShowroomUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020A6A43B7D7861A9C3E0609 /* Pods_WeltCarShowroom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB382000D7F1A620A9CE6C50 /* Pods_WeltCarShowroomTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D462003AFFBEA2C05FB38125 /* Pods_WeltCarShowroom_WeltCarShowroomUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +114,8 @@
 				496CD3B4270D799800C91DB3 /* WeltCarShowroomTests */,
 				496CD3BF270D799800C91DB3 /* WeltCarShowroomUITests */,
 				496CD39C270D798F00C91DB3 /* Products */,
+				F87BEE74E5B426BA85528F41 /* Pods */,
+				6DAC8F3F89218C94F7F2C7B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +132,10 @@
 		496CD39D270D798F00C91DB3 /* WeltCarShowroom */ = {
 			isa = PBXGroup;
 			children = (
-				496CD39E270D798F00C91DB3 /* AppDelegate.swift */,
-				496CD3A0270D798F00C91DB3 /* SceneDelegate.swift */,
-				496CD3A2270D798F00C91DB3 /* ViewController.swift */,
-				496CD3A4270D798F00C91DB3 /* Main.storyboard */,
-				496CD3A7270D799800C91DB3 /* Assets.xcassets */,
-				496CD3A9270D799800C91DB3 /* LaunchScreen.storyboard */,
 				496CD3AC270D799800C91DB3 /* Info.plist */,
+				496CD3D3270D7A5900C91DB3 /* ViewController */,
+				496CD3D2270D7A5100C91DB3 /* Domain */,
+				496CD3D1270D79EC00C91DB3 /* SupportiveFiles */,
 			);
 			path = WeltCarShowroom;
 			sourceTree = "<group>";
@@ -128,6 +158,80 @@
 			path = WeltCarShowroomUITests;
 			sourceTree = "<group>";
 		};
+		496CD3D1270D79EC00C91DB3 /* SupportiveFiles */ = {
+			isa = PBXGroup;
+			children = (
+				496CD39E270D798F00C91DB3 /* AppDelegate.swift */,
+				496CD3A0270D798F00C91DB3 /* SceneDelegate.swift */,
+				496CD3A7270D799800C91DB3 /* Assets.xcassets */,
+			);
+			path = SupportiveFiles;
+			sourceTree = "<group>";
+		};
+		496CD3D2270D7A5100C91DB3 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				496CD3D4270D7A7000C91DB3 /* Storyboard */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		496CD3D3270D7A5900C91DB3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				496CD3A2270D798F00C91DB3 /* ViewController.swift */,
+				4936043A270DA20C0089FECD /* SearchingVC.swift */,
+				49BB9E4F270DE69E000F151A /* CarDetailVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		496CD3D4270D7A7000C91DB3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				496CD3A9270D799800C91DB3 /* LaunchScreen.storyboard */,
+				496CD3A4270D798F00C91DB3 /* Main.storyboard */,
+				49360435270D9AE50089FECD /* SearchingVC.storyboard */,
+				49BB9E54270DE6B2000F151A /* CarDetailVC.storyboard */,
+				49BB9E41270DDB79000F151A /* tbcell */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		49BB9E41270DDB79000F151A /* tbcell */ = {
+			isa = PBXGroup;
+			children = (
+				49BB9E42270DDBA2000F151A /* Carcell.swift */,
+				49BB9E4A270DDBB0000F151A /* Carcell.xib */,
+				4901D189270E09CA0083176E /* BannerCollectionCell.swift */,
+				4901D191270E0A4D0083176E /* BannerCollectionCell.xib */,
+			);
+			path = tbcell;
+			sourceTree = "<group>";
+		};
+		6DAC8F3F89218C94F7F2C7B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91BB2D7AF177B6B4B73E0E11 /* Pods_WeltCarShowroom.framework */,
+				A914ABB7F1D85CDB8EC10E9C /* Pods_WeltCarShowroom_WeltCarShowroomUITests.framework */,
+				7EF5C752332875865E2B0E8B /* Pods_WeltCarShowroomTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F87BEE74E5B426BA85528F41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4658AE7938D82FD08B443D68 /* Pods-WeltCarShowroom.debug.xcconfig */,
+				BAF9CC56F4708C5831902ACA /* Pods-WeltCarShowroom.release.xcconfig */,
+				1E818689AEEBF04D58755EDC /* Pods-WeltCarShowroom-WeltCarShowroomUITests.debug.xcconfig */,
+				E38BF07C2B6F354D03FEAE21 /* Pods-WeltCarShowroom-WeltCarShowroomUITests.release.xcconfig */,
+				004CA3119E923235CA0AD485 /* Pods-WeltCarShowroomTests.debug.xcconfig */,
+				CD8B2B660A12C7C6834B57CC /* Pods-WeltCarShowroomTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 496CD3C5270D799800C91DB3 /* Build configuration list for PBXNativeTarget "WeltCarShowroom" */;
 			buildPhases = (
+				8EE0EF2165E8380214018E11 /* [CP] Check Pods Manifest.lock */,
 				496CD397270D798F00C91DB3 /* Sources */,
 				496CD398270D798F00C91DB3 /* Frameworks */,
 				496CD399270D798F00C91DB3 /* Resources */,
+				3D34FAFA4E8195347BBA3472 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 496CD3C8270D799800C91DB3 /* Build configuration list for PBXNativeTarget "WeltCarShowroomTests" */;
 			buildPhases = (
+				3FB0828B37C078D4F0215C7B /* [CP] Check Pods Manifest.lock */,
 				496CD3AD270D799800C91DB3 /* Sources */,
 				496CD3AE270D799800C91DB3 /* Frameworks */,
 				496CD3AF270D799800C91DB3 /* Resources */,
@@ -170,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 496CD3CB270D799800C91DB3 /* Build configuration list for PBXNativeTarget "WeltCarShowroomUITests" */;
 			buildPhases = (
+				8832AF541AF31202A7825536 /* [CP] Check Pods Manifest.lock */,
 				496CD3B8270D799800C91DB3 /* Sources */,
 				496CD3B9270D799800C91DB3 /* Frameworks */,
 				496CD3BA270D799800C91DB3 /* Resources */,
+				06061D26AEF7E441F7816013 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +340,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4901D192270E0A4D0083176E /* BannerCollectionCell.xib in Resources */,
+				49BB9E4B270DDBB0000F151A /* Carcell.xib in Resources */,
+				49BB9E55270DE6B2000F151A /* CarDetailVC.storyboard in Resources */,
 				496CD3AB270D799800C91DB3 /* LaunchScreen.storyboard in Resources */,
 				496CD3A8270D799800C91DB3 /* Assets.xcassets in Resources */,
 				496CD3A6270D798F00C91DB3 /* Main.storyboard in Resources */,
+				49360436270D9AE50089FECD /* SearchingVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +366,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06061D26AEF7E441F7816013 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeltCarShowroom-WeltCarShowroomUITests/Pods-WeltCarShowroom-WeltCarShowroomUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeltCarShowroom-WeltCarShowroomUITests/Pods-WeltCarShowroom-WeltCarShowroomUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeltCarShowroom-WeltCarShowroomUITests/Pods-WeltCarShowroom-WeltCarShowroomUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D34FAFA4E8195347BBA3472 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeltCarShowroom/Pods-WeltCarShowroom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeltCarShowroom/Pods-WeltCarShowroom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeltCarShowroom/Pods-WeltCarShowroom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FB0828B37C078D4F0215C7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeltCarShowroomTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8832AF541AF31202A7825536 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeltCarShowroom-WeltCarShowroomUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EE0EF2165E8380214018E11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeltCarShowroom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		496CD397270D798F00C91DB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4901D18A270E09CB0083176E /* BannerCollectionCell.swift in Sources */,
 				496CD3A3270D798F00C91DB3 /* ViewController.swift in Sources */,
+				4936043B270DA20C0089FECD /* SearchingVC.swift in Sources */,
+				49BB9E50270DE69F000F151A /* CarDetailVC.swift in Sources */,
 				496CD39F270D798F00C91DB3 /* AppDelegate.swift in Sources */,
 				496CD3A1270D798F00C91DB3 /* SceneDelegate.swift in Sources */,
+				49BB9E43270DDBA2000F151A /* Carcell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +653,7 @@
 		};
 		496CD3C6270D799800C91DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4658AE7938D82FD08B443D68 /* Pods-WeltCarShowroom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +672,7 @@
 		};
 		496CD3C7270D799800C91DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF9CC56F4708C5831902ACA /* Pods-WeltCarShowroom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +691,7 @@
 		};
 		496CD3C9270D799800C91DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004CA3119E923235CA0AD485 /* Pods-WeltCarShowroomTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +713,7 @@
 		};
 		496CD3CA270D799800C91DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8B2B660A12C7C6834B57CC /* Pods-WeltCarShowroomTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +735,7 @@
 		};
 		496CD3CC270D799800C91DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E818689AEEBF04D58755EDC /* Pods-WeltCarShowroom-WeltCarShowroomUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +755,7 @@
 		};
 		496CD3CD270D799800C91DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E38BF07C2B6F354D03FEAE21 /* Pods-WeltCarShowroom-WeltCarShowroomUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
