@@ -39,6 +39,10 @@ class CarDetailVC : UIViewController {
         setUpCollectionView()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        pageControl.drawer.numberOfPages = 3
+    }
+    
     @IBAction func clickBack(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
@@ -65,7 +69,7 @@ class CarDetailVC : UIViewController {
 extension CarDetailVC: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 5
+        return 3
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -74,7 +78,7 @@ extension CarDetailVC: UICollectionViewDataSource, UICollectionViewDelegateFlowL
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return .init(width: collectionView.frame.width, height: collectionView.frame.height)
+        return CGSize(width: self.bannerCollectionView.frame.width, height: self.bannerCollectionView.frame.height)
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
