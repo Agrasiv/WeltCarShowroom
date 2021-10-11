@@ -310,10 +310,10 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Usz-sp-5h9">
                                                 <rect key="frame" x="0.0" y="230" width="414" height="170"/>
                                                 <subviews>
-                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Bbc-hy-kE1">
+                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Bbc-hy-kE1">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="170"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="AP4-GG-Y7d">
+                                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="jeU-q9-7KY">
                                                             <size key="itemSize" width="128" height="128"/>
                                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -665,7 +665,7 @@
                     <connections>
                         <outlet property="bannerCollectionView" destination="Bbc-hy-kE1" id="CRJ-y6-uQG"/>
                         <outlet property="lbName" destination="ZM5-uO-x5d" id="ufB-K0-jV5"/>
-                        <outlet property="pageControl" destination="fH9-3g-v2v" id="ZTd-dH-bPk"/>
+                        <outlet property="pageControl" destination="fH9-3g-v2v" id="ZHV-Nc-YVz"/>
                         <outlet property="viewAddtocalendar" destination="YMc-Zh-in4" id="Lpp-1r-vqr"/>
                         <outlet property="viewBackground" destination="Usz-sp-5h9" id="9Dp-bj-8Kd"/>
                         <outlet property="viewExtend" destination="jh6-LL-nNd" id="YPf-M7-0bm"/>
